@@ -4,9 +4,13 @@ import ManIcon from '@mui/icons-material/Man';
 
 function Header() {
     return (
-        <AppBar position="static">
+        <AppBar position="static" >
             <Toolbar>
-                <Typography>谷元柊介の自己紹介ページ</Typography>
+                <Typography variant="h5" align="center" sx={{
+                fontWeight: 'bold'
+                }}>
+            谷元柊介の自己紹介ページ
+            </Typography>
                 <ManIcon />
             </Toolbar>
         </AppBar>
